@@ -2,7 +2,8 @@
  
  * `Taxi-v2` : Example .  
  * Random Steps .   
- * Simple Learning Formula : 
+ * Simple Learning Formula :
+  
 ![](/assets/learning_formula.png)
  
 ## Experiment 6
