@@ -1,3 +1,20 @@
+## Prérequis : 
+
+* Gym 
+* Tensorflow
+* Keras
+* Keras-rl 
+
+### Installation de Gym : 
+
+```
+sudo apt-get install -y python3-numpy python3-dev python3-pip cmake zlib1g-dev libjpeg-dev xvfb libav-tools xorg-dev python-opengl libboost-all-dev libsdl2-dev swig
+cd ~
+git clone https://github.com/openai/gym.git
+cd gym
+sudo pip3 install -e '.[all]'
+```
+
 ## Experiment 5
  
  * `Taxi-v2` : Example .  
@@ -19,7 +36,7 @@ Layer (type)                 Output Shape              Param #
 =================================================================
 flatten_1 (Flatten)          (None, 8)                 0         
 _________________________________________________________________
-dense_1 (Dense)              (None, 16)                144       
+dense_1 (Dense)              (None, 16)                    144       
 _________________________________________________________________
 activation_1 (Activation)    (None, 16)                0         
 _________________________________________________________________
@@ -40,3 +57,7 @@ Trainable params: 756
 Non-trainable params: 0
 _________________________________________________________________
 ```
+
+
+## Lectures : 
+ * https://en.wikipedia.org/wiki/Q-learning

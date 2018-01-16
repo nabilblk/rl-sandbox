@@ -1,7 +1,7 @@
 import gym
 
 env = gym.make("Taxi-v2")
-PRINT = False
+PRINT = True
 state = env.reset()
 env.render()
 counter = 0
@@ -17,3 +17,4 @@ while reward != 20:
 
 env.render()
 print("Solved in {} Steps with a total reward of {}".format(counter,G))
+

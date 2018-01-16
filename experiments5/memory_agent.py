@@ -5,7 +5,7 @@ env = gym.make("Taxi-v2")
 Q = np.zeros([env.observation_space.n, env.action_space.n])
 G = 0
 alpha = 0.618
-TESTING = False
+TESTING = True
 
 # Training
 for episode in range(1,1001):
