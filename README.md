@@ -61,3 +61,10 @@ _________________________________________________________________
 
 ## Lectures : 
  * https://en.wikipedia.org/wiki/Q-learning
+ * https://hackernoon.com/the-3-tricks-that-made-alphago-zero-work-f3d47b6686ef
+ * https://github.com/deepmind/sonnet
+ * https://github.com/deepmind/lab
+ * https://becominghuman.ai/lets-build-an-atari-ai-part-1-dqn-df57e8ff3b26
+ * https://ai.intel.com/demystifying-deep-reinforcement-learning/
+ * http://awjuliani.github.io/exploration/index.html
+ * https://www.chess.com/news/view/google-s-alphazero-destroys-stockfish-in-100-game-match

@@ -1,7 +1,7 @@
 import gym
 
 env = gym.make("Taxi-v2")
-PRINT = True
+PRINT = False
 state = env.reset()
 env.render()
 counter = 0

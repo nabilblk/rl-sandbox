@@ -25,6 +25,11 @@ def main():
     print('State: {}, reward: {}, done: {} , info: {}'.format(state, reward, done, info))
     env.render()
 
+    # Faire un 2EME pas
+    state, reward, done, info = env.step(1)
+    print('State: {}, reward: {}, done: {} , info: {}'.format(state, reward, done, info))
+    env.render()
+
 if __name__ == '__main__':
     log_fmt = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
     logging.basicConfig(level=logging.INFO, format=log_fmt)
