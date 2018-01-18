@@ -15,7 +15,7 @@ cd gym
 sudo pip3 install -e '.[all]'
 ```
 
-## Experiment 5
+## Experiment 1
  
  * `Taxi-v2` : Example .  
  * Random Steps .   
@@ -23,7 +23,7 @@ sudo pip3 install -e '.[all]'
   
 ![](/assets/learning_formula.png)
  
-## Experiment 6
+## Experiment 2
 
  * More complex environement `Lunarlander-v2`
  * Using keras-rl for it's simplicity .
