@@ -60,6 +60,7 @@ _________________________________________________________________
 
 
 ## Lectures : 
+ * https://www.oreilly.com/learning/introduction-to-reinforcement-learning-and-openai-gym
  * https://en.wikipedia.org/wiki/Q-learning
  * https://hackernoon.com/the-3-tricks-that-made-alphago-zero-work-f3d47b6686ef
  * https://github.com/deepmind/sonnet
@@ -68,3 +69,6 @@ _________________________________________________________________
  * https://ai.intel.com/demystifying-deep-reinforcement-learning/
  * http://awjuliani.github.io/exploration/index.html
  * https://www.chess.com/news/view/google-s-alphazero-destroys-stockfish-in-100-game-match
+ * https://github.com/wagonhelm/Reinforcement-Learning-Introduction/blob/master/Reinforcement%20Learning%20Introduction.ipynb
+ * https://raw.githubusercontent.com/ageron/tiny-dqn/master/tiny_dqn.py
+ * https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-7-action-selection-strategies-for-exploration-d3a97b7cceaf
