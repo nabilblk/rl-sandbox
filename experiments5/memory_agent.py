@@ -13,12 +13,12 @@ for episode in range(1,1001):
     G, reward, counter = 0,0,0
     state = env.reset()
     while done != True:
-            counter += 1
-            action = np.argmax(Q[state]) #1
-            state2, reward, done, info = env.step(action) #2
-            Q[state,action] += alpha * (reward + np.max(Q[state2]) - Q[state,action]) #3
-            G += reward
-            state = state2
+        counter += 1
+        action = np.argmax(Q[state]) #1
+        state2, reward, done, info = env.step(action) #2
+        Q[state,action] += alpha * (reward + np.max(Q[state2]) - Q[state,action]) #3
+        G += reward
+        state = state2
 
     if episode % 50 == 0:
         print('Episode {} Solved in {} Total Reward: {}'.format(episode,counter,G))
