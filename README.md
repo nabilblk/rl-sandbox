@@ -1,6 +1,6 @@
 ## Prérequis : 
 
-* Gym 
+* Gym 0.9.3
 * Tensorflow
 * Keras
 * Keras-rl 
